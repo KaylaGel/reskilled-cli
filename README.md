@@ -2,6 +2,13 @@
   <img src="reskilled-logo.svg" alt="reskilled" width="500" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.11+-blue?style=flat-square&logo=python&logoColor=white" alt="Python 3.11+" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License" />
+  <img src="https://img.shields.io/badge/install%20with-uv-purple?style=flat-square" alt="Install with uv" />
+  <img src="https://img.shields.io/badge/Built%20with-Claude%20Code-black?style=flat-square&logo=anthropic&logoColor=white" alt="Built with Claude Code" />
+</p>
+
 **getreskilled.ai** — Learning platform for the AI era.
 
 An open source CLI that helps you build a resume, get feedback, discover projects, and find communities — all from your terminal.
