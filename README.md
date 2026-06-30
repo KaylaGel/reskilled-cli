@@ -1,4 +1,6 @@
-# [re]skilled
+<p align="center">
+  <img src="reskilled-logo.svg" alt="reskilled" width="220" />
+</p>
 
 **getreskilled.ai** — Learning platform for the AI era.
 
