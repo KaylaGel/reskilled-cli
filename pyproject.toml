@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "reskilled"
+version = "0.1.0"
+description = "getreskilled.ai — Learning platform for the AI era"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+keywords = ["cli", "ai", "learning", "resume", "career", "reskilling"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Environment :: Console",
+    "Topic :: Education",
+]
+dependencies = [
+    "typer[all]>=0.12",
+    "litellm>=1.50",
+    "rich>=13.0",
+    "python-dotenv>=1.0",
+    "pypdf>=4.0",
+    "questionary>=2.1.1",
+    "markdown>=3.10.2",
+    "fpdf2>=2.8.7",
+]
+
+[project.scripts]
+reskilled = "reskilled.cli:app"
+
+[project.urls]
+Homepage = "https://getreskilled.ai"
+Repository = "https://github.com/getreskilled/reskilled-cli"
+Issues = "https://github.com/getreskilled/reskilled-cli/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["reskilled"]
